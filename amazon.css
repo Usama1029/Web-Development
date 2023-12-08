@@ -1,0 +1,207 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+     height: 50px;
+     width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+ background-size: cover;
+ height:  50px;
+ width: 100%;
+ 
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.first-tax{
+    font-size: 1rem;
+    color: azure;
+    margin-left: 15px;
+}
+.second-tax{
+  font-size: 1rem;
+  margin-left: 8px;
+}
+.address{
+    display: flex;
+    text-align: center;
+}
+.nav-search{
+   display: flex;
+   background-color: blue;
+   justify-content: space-evenly;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+   
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border: none;
+     
+}
+
+.search-input{
+   width: 100%;
+   font-size: 1rem;
+   border: none; 
+}
+.search-icon{
+     width: 45px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     font-size: 1.2rem;
+     background-color: rgb(255, 177, 19);
+     border-bottom-right-radius: 4px;
+     border-top-right-radius: 4px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.para{
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+.nav-card i{
+    font-size: 30px;
+}
+.nav-card{
+ font-size: 0.88rem;
+ font-weight: 700;   
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    margin: 16px;
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.88rem;
+}
+.last{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url(notes/hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.msge a{
+    color: aqua;
+}
+.msge{
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    font-size: 0.88rem;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden; /* Add this line to hide overflowing content */
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.img {
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content h2 {
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add some spacing between the heading and the image */
+}
+
+.content p {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: blue; /* Change the color if needed */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+/* Add the following if you want to underline the "see more" text on hover */
+.content p:hover {
+    text-decoration: underline;
+}
+.footer1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.88rem;
+}
+.footer2{
+    background-color: #37475a;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    display: block;
+    font-size: 0.88rem;
+    margin-top: 10px;
+}
+
