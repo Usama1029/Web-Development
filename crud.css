@@ -1,0 +1,48 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table{
+    width: 80%;
+    margin: 40px;
+    background-color: rgb(163, 209, 167);
+}
+table.list{
+    width: 90%;
+    text-align:center;
+}
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 10px 15px;
+}
+input[type="text"],[type="number"]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    display: inline-block;
+    border: 1px solid  rgb(165,161,161);;
+    border-radius: 5px;
+  
+   
+}
+input[type = "submit"],[type = "reset"]
+{
+    background-color: white;
+    padding: 10px 14px;
+    margin: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.8rem; 
+    border: none;
+    display: inline-block;
+}
+input[type = "submit"]:hover{
+    background-color: rgba(14, 73, 173, 0.909);
+}
+input[type = "reset"]:hover{
+    background-color: rgba(14, 73, 173, 0.909);
+}
